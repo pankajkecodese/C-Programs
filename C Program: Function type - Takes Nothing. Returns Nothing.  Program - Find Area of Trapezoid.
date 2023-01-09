@@ -1,0 +1,34 @@
+/* C Program: Function type - Takes Nothing. Returns Nothing.
+
+Program - Find Area of Trapezoid.
+
+Trapezoid - Area of Trapezoid = 1/2 × (b1 + b2) × h
+
+Where b1 and b2 are the bases of the Trapezoid
+
+And, h = height of the Trapezoid
+*/
+
+#include <stdio.h>
+
+void main() {
+    void areaOfTrapezoid(void);
+    areaOfTrapezoid();
+}
+
+void areaOfTrapezoid() {
+    int a, b1, b2, h;
+
+    printf("Enter first base: ");
+    scanf("%d",&b1);
+
+    printf("Enter second base: ");
+    scanf("%d",&b2);
+
+    printf("Enter height: ");
+    scanf("%d",&h);
+
+    a=0.5*(b1+b2)*h;
+
+    printf("Area of Trapezoid: %d",a);
+}
