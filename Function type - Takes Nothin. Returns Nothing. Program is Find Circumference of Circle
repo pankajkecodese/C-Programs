@@ -1,0 +1,28 @@
+/* C Language: 
+
+Function type - Takes Nothing. Returns Nothing.
+
+Program - Find Circumference of Circle.
+Circumference of Circle = 2πr
+Where ‘r’ is the radius of a Circle
+
+ */
+
+ #include <stdio.h>
+
+void main() {
+    void circumferenceOfCircle(void);
+    circumferenceOfCircle();
+}
+
+void circumferenceOfCircle() {
+    float c,pi,r;
+    pi=3.14;
+
+    printf("Enter Radius: ");
+    scanf("%f",&r);
+
+    c=2*pi*r;
+
+    printf("Circumference of Circle: %f",c);
+}
