@@ -1,0 +1,21 @@
+// Function type: Takes Something. Returns Nothing
+// C Program: Find Area of circle
+
+#include <stdio.h>
+
+void main() {
+    float r;
+    void areaOfCircle(float);
+
+    printf("Enter radius: ");
+    scanf("%f",&r);
+
+    areaOfCircle(r);
+}
+
+void areaOfCircle(float R) {
+    float a;
+    a=3.14*R*R;
+
+    printf("Area of Circle: %f",a);
+}
